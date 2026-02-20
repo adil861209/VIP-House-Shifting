@@ -1,0 +1,11 @@
+# VIP House Shifting Website
+User-agent: *
+Allow: /
+
+# Disallow admin panel
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /db/
+
+# Sitemap
+Sitemap: http://localhost/vip-house-shifting/sitemap.php
